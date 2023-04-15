@@ -1,4 +1,4 @@
-# Don't Hold Your Breath – Breathing analysis with Polar H10 Heart Rate Monitor
+# Don't Hold Your Breath – Breathing analysis with the Polar H10 Heart Rate Monitor
 
 A person's heart rate fluctuates based on factors such as activity, environment, and mental state. Additionally, heart rate variations occur on a much shorter timescale, with changes happening every few seconds. During inhalation, heart rate slightly increases, and it decreases again during exhalation, a phenomenon known as respiratory sinus arrhythmia. There are several reasons for this. Firstly, an increase in volume within the thoracic cavity (the space between the ribs) leads to a corresponding drop in pressure, which is counteracted by a rise in heart rate to regulate blood pressure. Secondly, breathing is deeply intertwined with the autonomic nervous system, which involves the opposing activation of the parasympathetic ("rest and digest") and sympathetic ("fight or flight") responses. By measuring heart rate variability and regulating our breath, we can gain insight into our stress response and learn to control it.
 
@@ -18,7 +18,7 @@ The Polar H10 heart rate monitor provides basic heart rate measurements from a c
 
 ## Usage
 
-    python DHYB.py --use-sample-data --record-time 20
+    python DHYB.py --record-time 600
 
     options:
     --use-sample-data     Use sample data loaded from a file
