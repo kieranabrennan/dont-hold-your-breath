@@ -6,7 +6,7 @@ import argparse
 from PolarH10 import PolarH10
 from BreathingAnalyser import BreathingAnalyser
 
-""" polar_scanner.py
+""" DHYB.py
 Scan and connect to Polar H10 device
 Retrieve basic sensor information including battery level and serial number
 - Stream accelerometer data simultaneously with heart rate data
