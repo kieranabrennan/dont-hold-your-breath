@@ -18,7 +18,7 @@ The Polar H10 heart rate monitor provides basic heart rate measurements from a c
 
 ## Usage
 
-    python DHYB.py --record-time 600
+    python3 DHYB.py
 
     options:
     --use-sample-data     Use sample data loaded from a file
